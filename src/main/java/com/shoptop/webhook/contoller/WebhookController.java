@@ -42,7 +42,7 @@ public class WebhookController {
             e.printStackTrace();
         }
 
-        log.info("\n############## 验签成功 sign= {} & verify= {}##############", sign);
+        log.info("\n############## 验签成功 sign= {} ##############", sign);
         /**
          * 处理业务逻辑
          * X-Shoptop-Topic: orders/create
